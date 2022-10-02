@@ -1,0 +1,55 @@
+<view class="all">
+    <swiper autoplay="true" interval="3000">
+        <swiper-item>
+            <image src="../../images/p1.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="../../images/p2.png"></image>
+        </swiper-item>
+    </swiper>
+    <view class="line">
+        <view class="box" bindtap="biaobai">
+            <image src="../../images/biaobai.png"></image>
+            <view>全部分类</view>
+        </view>
+        <view class="box" bindtap="lost">
+            <image src="../../images/lost.png"></image>
+            <view>包邮商品</view>
+        </view>
+    </view>
+    <view class="line">
+        <view class="box" bindtap="work">
+            <image src="../../images/work.png"></image>
+            <view>用户中心</view>
+        </view>
+        <view class="box" bindtap="xianzhi">
+            <image src="../../images/xianzhi.png"></image>
+            <view>我的订单</view>
+
+        </view>
+    </view>
+    <view class="line">
+        <view class="box" bindtap="tucao">
+            <image src="../../images/p3.png"></image>
+            <view>充值|钱包</view>
+        </view>
+    </view>
+    <view class="line">
+        <view class="box" bindtap="tucao">
+            <image src="../../images/p3.png"></image>
+            <view>新人专享</view>
+        </view>
+    </view>
+    <view class="line">
+        <view class="box" bindtap="tucao">
+            <image src="../../images/p3.png"></image>
+            <view>购物车</view>
+        </view>
+    </view>
+    <view class="line">
+        <view class="box" bindtap="tucao">
+            <image src="../../images/p3.png"></image>
+            <view>联系客服</view>
+        </view>
+    </view>
+</view>
